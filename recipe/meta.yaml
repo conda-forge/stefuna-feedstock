@@ -1,5 +1,5 @@
 {% set name = "stefuna" %}
-{% set version = "0.9.8" %}
+{% set version = "0.9.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: e102872748616920732ecfc1b577b4f96055f9202507448696b96673449065ea
+  sha256: cc14e39260896a17d87302281c2e09197ead8273257c5d4ef01ed85fc55ca2b1
 
 build:
   noarch: python
